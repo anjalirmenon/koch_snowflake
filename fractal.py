@@ -1,3 +1,5 @@
+# Anti-Koch snowflake
+
 import pygame
 import math
 black = (0,0,0)
@@ -45,17 +47,6 @@ def Koch_snowflake(length,angle1):
 	fwrd(length)
 	right(angle1)
 	fwrd(length)
-#def snow_flake(screen,range, angle1):
-#3	if range == 0:
-#		Koch_snowflake(2,angle1)
-#	else:
-#		snow_flake(screen,range-1,angle1)
-#		right(angle1)
-#		snow_flake(screen,range-1,angle1)
-#		left(angle1*2)
-#		snow_flake(screen,range-1,angle1)
-#		right(angle1)
-#		snow_flake(screen,range-1,angle1)
 
 def koch(screen,range1,angle1):
 	if range1 == 0:
