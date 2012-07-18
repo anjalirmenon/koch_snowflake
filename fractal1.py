@@ -1,3 +1,6 @@
+# Koch snowflake
+
+
 import pygame
 import math
 black = (0,0,0)
